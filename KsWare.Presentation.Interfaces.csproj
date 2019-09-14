@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +58,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Plugins\DataTemplateConverter\DataTemplateConverterPluginExportMetadataAttribute.cs" />
+    <Compile Include="Plugins\DataTemplateConverter\DataTemplateConverterPluginExportMetadataView.cs" />
+    <Compile Include="Plugins\DataTemplateConverter\IDataTemplateConverterPluginExportMetadata.cs" />
+    <Compile Include="Plugins\DataTemplateConverter\IDataTemplateConverterPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -80,5 +85,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
