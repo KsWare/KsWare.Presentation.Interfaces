@@ -24,7 +24,7 @@ namespace KsWare.Presentation.Interfaces.Plugins.DataTemplateConverter
 
 			Array = new DataTemplateConverterPluginExportMetadataAttribute[p1.Length];
 			for (var i = 0; i < Array.Length; i++)
-				Array[i] = new DataTemplateConverterPluginExportMetadataAttribute(p1[i], p2[1]);
+				Array[i] = new DataTemplateConverterPluginExportMetadataAttribute(p1[i], p2[i]);
 		}
 	}
 }
