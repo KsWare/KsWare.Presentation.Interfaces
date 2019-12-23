@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net45;net47;net472;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <Description>Interfaces for KsWare Presentation Framework"</Description>
     <Company>KsWare</Company>
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
     <Version>0.0.0</Version>
     <Copyright>Copyright © 2019 by KsWare. All rights reserved.</Copyright>
-    <PackageLicenseExpression>LGPL-3.0</PackageLicenseExpression>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Properties\KsWare.Presentation.Public.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
