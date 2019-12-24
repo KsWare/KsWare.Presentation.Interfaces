@@ -17,6 +17,11 @@
 
   <PropertyGroup>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\KsWare.Presentation.Interfaces.xml</DocumentationFile>
+    <RepositoryUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>Interfaces KsWare Presentation Framework</PackageTags>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net45'">
@@ -28,6 +33,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
