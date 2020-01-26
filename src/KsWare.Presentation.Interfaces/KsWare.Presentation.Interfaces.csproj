@@ -8,7 +8,7 @@
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
     <Version>0.0.0</Version>
-    <Copyright>Copyright © 2019 by KsWare. All rights reserved.</Copyright>
+    <Copyright>Copyright © by KsWare. All rights reserved.</Copyright>
     <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Properties\KsWare.Presentation.Public.snk</AssemblyOriginatorKeyFile>
@@ -21,7 +21,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
-    <PackageTags>Interfaces KsWare Presentation Framework</PackageTags>
+    <PackageTags>templateconverer plugin templateconvererplugin Interfaces KsWare Presentation Framework</PackageTags>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net45'">
@@ -33,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png">
+    <None Include="..\..\icon.png" Link="Properties\icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
