@@ -1,34 +1,34 @@
 ﻿using System;
 using System.ComponentModel.Composition;
 
-namespace KsWare.Presentation.Interfaces.Plugins.TemplateConverter
+namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
 {
 	/// <summary>
-	/// Class TemplateConverterPluginExportMetadataAttribute. This class cannot be inherited.
+	/// Class ResourceConverterPluginExportMetadataAttribute. This class cannot be inherited.
 	/// Implements the <see cref="System.Attribute" />
-	/// Implements the <see cref="ITemplateConverterPluginExportMetadata" />
+	/// Implements the <see cref="IResourceConverterPluginExportMetadata" />
 	/// </summary>
 	/// <seealso cref="System.Attribute" />
-	/// <seealso cref="ITemplateConverterPluginExportMetadata" />
+	/// <seealso cref="IResourceConverterPluginExportMetadata" />
 	/// <example>
 	/// Export a converter plugin for MIME type "image/gif"
 	/// <code language="csharp">
-	/// [Export(typeof(ITemplateConverterPlugin)), DataTemplateConverterPluginExportMetadata("image/gif")]
-	/// public sealed class DataTemplateConverterPlugin : ITemplateConverterPlugin {
+	/// [Export(typeof(IResourceConverterPlugin)), DataTemplateConverterPluginExportMetadata("image/gif")]
+	/// public sealed class DataTemplateConverterPlugin : IResourceConverterPlugin {
 	///     public DataTemplate CreateTemplate(object content) {...}
 	/// }
 	/// </code>
 	/// </example>
 	[MetadataAttribute]
 	[AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
-	public sealed class TemplateConverterPluginExportMetadataAttribute : Attribute, ITemplateConverterPluginExportMetadata
+	public sealed class ResourceConverterPluginExportMetadataAttribute : Attribute, IResourceConverterPluginExportMetadata
 	{
 		/// <summary>
-		/// Initializes a new instance of the <see cref="TemplateConverterPluginExportMetadataAttribute"/> class.
+		/// Initializes a new instance of the <see cref="ResourceConverterPluginExportMetadataAttribute"/> class.
 		/// </summary>
 		/// <param name="mimeType">The <see cref="MimeType"/>.</param>
 		/// <param name="priority">The <see cref="Priority"/>.</param>
-		public TemplateConverterPluginExportMetadataAttribute(string mimeType, int priority = 0)
+		public ResourceConverterPluginExportMetadataAttribute(string mimeType, int priority = 0)
 
 		{
 			MimeType = mimeType;

@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
     <Description>Interfaces for KsWare Presentation Framework. 
-      Supports .Net 4.5+ and Core 3.x"</Description>
+- IResourceConverterPlugin
+Supports .Net 4.5+ and Core 3.x"</Description>
     <Company>KsWare</Company>
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
@@ -21,7 +22,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
-    <PackageTags>templateconverer plugin templateconvererplugin Interfaces KsWare Presentation Framework</PackageTags>
+    <PackageTags>resource converter plugin Interfaces KsWare Presentation Framework</PackageTags>
+    <PackageReleaseNotes>- IResourceConverterPlugin
+Supports .Net 4.5+ and Core 3.x"</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net45'">

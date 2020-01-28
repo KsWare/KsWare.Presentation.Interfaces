@@ -1,6 +1,12 @@
 # Release Notes
 KsWare.Presentation.Interfaces
 
+### 2020-01-28
+- breaking change
+- ..TemplateConverter.. renamed to ..ResourceConverter..
+- IResourceConverterPlugin derives from IValueConverter
+
+
 #### v0.1.3 (2019-09-14)
 - FIX DataTemplateConverterPluginExportMetadataView
 

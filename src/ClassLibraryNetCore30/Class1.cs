@@ -1,20 +1,19 @@
 ﻿using System;
 using System.ComponentModel.Composition;
-using System.Windows;
-using System.Windows.Controls;
-using KsWare.Presentation.Interfaces.Plugins.TemplateConverter;
+using System.Globalization;
+using KsWare.Presentation.Interfaces.Plugins.ResourceConverter;
 
 namespace ClassLibraryNetCore30 {
 
-	[Export(typeof(ITemplateConverterPlugin))]
-	[TemplateConverterPluginExportMetadata("test/test")]
-	public class Class1 : ITemplateConverterPlugin {
+	[Export(typeof(IResourceConverterPlugin))]
+	[ResourceConverterPluginExportMetadata("test/test")]
+	public class Class1 : IResourceConverterPlugin {
 
-		public DataTemplate CreateDataTemplate(object content) {
+		public object Convert(object value, Type targetType, object parameter, CultureInfo culture) {
 			throw new NotImplementedException();
 		}
 
-		public ControlTemplate CreateControlTemplate(object content) {
+		public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) {
 			throw new NotImplementedException();
 		}
 

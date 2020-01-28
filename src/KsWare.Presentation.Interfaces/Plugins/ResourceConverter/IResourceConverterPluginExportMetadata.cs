@@ -1,9 +1,9 @@
-﻿namespace KsWare.Presentation.Interfaces.Plugins.TemplateConverter
+﻿namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
 {
 	/// <summary>
-	/// Interface ITemplateConverterPluginExportMetadata
+	/// Interface IResourceConverterPluginExportMetadata
 	/// </summary>
-	public interface ITemplateConverterPluginExportMetadata
+	public interface IResourceConverterPluginExportMetadata
 	{
 		/// <summary>
 		/// Gets the MIME type.
