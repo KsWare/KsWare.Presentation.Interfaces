@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows</TargetFrameworks>
     <Description>Interfaces for KsWare Presentation Framework. 
 - IResourceConverterPlugin
-Supports .Net 4.5+ and Core 3.x"</Description>
+Supports .Net 5.0, Core 3.1 and .Net 4.5, "</Description>
     <Company>KsWare</Company>
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
@@ -24,7 +24,7 @@ Supports .Net 4.5+ and Core 3.x"</Description>
     <PackageIconUrl />
     <PackageTags>resource converter plugin Interfaces KsWare Presentation Framework</PackageTags>
     <PackageReleaseNotes>- IResourceConverterPlugin
-Supports .Net 4.5+ and Core 3.x"</PackageReleaseNotes>
+Supports .Net 5.0, Core 3.1 and .Net 4.5"</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</PackageProjectUrl>
   </PropertyGroup>
 
@@ -32,8 +32,11 @@ Supports .Net 4.5+ and Core 3.x"</PackageReleaseNotes>
     <Reference Include="System.ComponentModel.Composition" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.0'">
-    <PackageReference Include="System.ComponentModel.Composition" Version="4.7.0" />
+  <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.1'">
+    <PackageReference Include="System.ComponentModel.Composition" Version="4.7.0" /> <!--TODO update to 5.0.0 ?-->
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)'=='net5.0-windows'">
+    <PackageReference Include="System.ComponentModel.Composition" Version="4.7.0" /> <!--TODO update to 5.0.0 ?-->
   </ItemGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@ using System.ComponentModel.Composition;
 using System.Globalization;
 using KsWare.Presentation.Interfaces.Plugins.ResourceConverter;
 
-namespace ClassLibraryNetCore30 {
+namespace ClassLibraryNetCore31 {
 
 	[Export(typeof(IResourceConverterPlugin))]
 	[ResourceConverterPluginExportMetadata("test/test")]

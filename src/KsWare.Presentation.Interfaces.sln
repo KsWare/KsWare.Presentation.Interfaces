@@ -17,7 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{66B37AE7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryNet45", "ClassLibraryNet45\ClassLibraryNet45.csproj", "{54477EA9-F4E7-4F78-A0A8-83976B292812}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryNetCore30", "ClassLibraryNetCore30\ClassLibraryNetCore30.csproj", "{6E434E10-D6DD-4F77-B302-E786D18B4A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryNetCore31", "ClassLibraryNetCore31\ClassLibraryNetCore31.csproj", "{6E434E10-D6DD-4F77-B302-E786D18B4A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryNet50", "ClassLibraryNet50\ClassLibraryNet50.csproj", "{7C9DDABD-68C9-4F0A-9693-8EB0CC66D0ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{6E434E10-D6DD-4F77-B302-E786D18B4A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E434E10-D6DD-4F77-B302-E786D18B4A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E434E10-D6DD-4F77-B302-E786D18B4A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9DDABD-68C9-4F0A-9693-8EB0CC66D0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9DDABD-68C9-4F0A-9693-8EB0CC66D0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9DDABD-68C9-4F0A-9693-8EB0CC66D0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9DDABD-68C9-4F0A-9693-8EB0CC66D0ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{54477EA9-F4E7-4F78-A0A8-83976B292812} = {66B37AE7-A163-458C-A0D1-C96BF05053FB}
 		{6E434E10-D6DD-4F77-B302-E786D18B4A6F} = {66B37AE7-A163-458C-A0D1-C96BF05053FB}
+		{7C9DDABD-68C9-4F0A-9693-8EB0CC66D0ED} = {66B37AE7-A163-458C-A0D1-C96BF05053FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4C99964-88B7-48AE-8D93-39B16233D763}
