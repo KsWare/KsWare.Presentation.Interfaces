@@ -22,21 +22,10 @@ Supports .Net 5.0, Core 3.1 and .Net 4.5</Description>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
     <PackageTags>resource converter plugin Interfaces KsWare Presentation Framework</PackageTags>
-    <PackageReleaseNotes>Support for .Net 5.0, Core 3.1 and .Net 4.5"</PackageReleaseNotes>
+    <PackageReleaseNotes>Support for .Net 5.0, Core 3.1 and .Net 4.5</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)'=='net45'">
-    <Reference Include="System.ComponentModel.Composition" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)'=='netcoreapp3.1'">
-    <PackageReference Include="System.ComponentModel.Composition" Version="4.7.0" /> <!--TODO update to 5.0.0 ?-->
-  </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)'=='net5.0-windows'">
-    <PackageReference Include="System.ComponentModel.Composition" Version="4.7.0" /> <!--TODO update to 5.0.0 ?-->
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\icon.png" Link="Properties\icon.png">
