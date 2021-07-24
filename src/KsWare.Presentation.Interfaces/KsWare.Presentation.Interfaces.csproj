@@ -3,13 +3,12 @@
   <PropertyGroup>
     <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows</TargetFrameworks>
     <Description>Interfaces for KsWare Presentation Framework. 
-- IResourceConverterPlugin
-Supports .Net 5.0, Core 3.1 and .Net 4.5, "</Description>
+Supports .Net 5.0, Core 3.1 and .Net 4.5</Description>
     <Company>KsWare</Company>
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
-    <Version>0.0.0</Version>
-    <Copyright>Copyright © by KsWare. All rights reserved.</Copyright>
+    <Version>0.2.0</Version>
+    <Copyright>Copyright © 2002-2021 by KsWare. All rights reserved.</Copyright>
     <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Properties\KsWare.Presentation.Public.snk</AssemblyOriginatorKeyFile>
@@ -23,9 +22,9 @@ Supports .Net 5.0, Core 3.1 and .Net 4.5, "</Description>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
     <PackageTags>resource converter plugin Interfaces KsWare Presentation Framework</PackageTags>
-    <PackageReleaseNotes>- IResourceConverterPlugin
-Supports .Net 5.0, Core 3.1 and .Net 4.5"</PackageReleaseNotes>
+    <PackageReleaseNotes>Support for .Net 5.0, Core 3.1 and .Net 4.5"</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)'=='net45'">
@@ -44,5 +43,9 @@ Supports .Net 5.0, Core 3.1 and .Net 4.5"</PackageReleaseNotes>
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
   </ItemGroup>
 </Project>
