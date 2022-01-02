@@ -1,11 +1,9 @@
 ﻿using System;
 using System.ComponentModel.Composition;
 using System.Globalization;
-using System.Windows;
-using System.Windows.Controls;
 using KsWare.Presentation.Interfaces.Plugins.ResourceConverter;
 
-namespace ClassLibraryNet45
+namespace ClassLibraryNet452
 {
 	[Export(typeof(IResourceConverterPlugin))]
 	[ResourceConverterPluginExportMetadata("test/test")]
