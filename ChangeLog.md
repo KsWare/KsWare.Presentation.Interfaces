@@ -6,6 +6,7 @@ KsWare.Presentation.Interfaces
 - remove TargetFramework net45 
 - remove project ClassLibraryNet45
 - add TargetFramework net472
+- add project ClassLibraryNet472
 
 ### 2021-07-23
 - TargetFrameworks removed: netcoreapp3.0
