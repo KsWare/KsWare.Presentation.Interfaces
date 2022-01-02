@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net452;net462;net472;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
     <Description>Interfaces for KsWare Presentation Framework. 
 Supports .Net 5.0/6.0, Core 3.1 and .Net 4.7.2</Description>
     <Company>KsWare</Company>
@@ -22,7 +22,7 @@ Supports .Net 5.0/6.0, Core 3.1 and .Net 4.7.2</Description>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
     <PackageTags>resource converter plugin Interfaces KsWare Presentation Framework</PackageTags>
-    <PackageReleaseNotes>Support for .Net 5.0/6.0, Core 3.1 and .Net 4.5</PackageReleaseNotes>
+    <PackageReleaseNotes>Support for .Net 5.0/6.0, Core 3.1 and .Net 4.7.2</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
