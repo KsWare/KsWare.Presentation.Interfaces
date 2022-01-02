@@ -2,7 +2,9 @@
 KsWare.Presentation.Interfaces
 
 ### 2022-01-02
-- TargetFramework added: net6.0-windows
+- add TargetFramework net6.0-windows
+- remove TargetFramework net45 
+- add TargetFramework net472
 
 ### 2021-07-23
 - TargetFrameworks removed: netcoreapp3.0

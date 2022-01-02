@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net472;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
     <Description>Interfaces for KsWare Presentation Framework. 
-Supports .Net 5.0/6.0, Core 3.1 and .Net 4.5</Description>
+Supports .Net 5.0/6.0, Core 3.1 and .Net 4.7.2</Description>
     <Company>KsWare</Company>
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
