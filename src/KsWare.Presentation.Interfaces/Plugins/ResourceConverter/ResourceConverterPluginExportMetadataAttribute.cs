@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.Composition;
 
-namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
-{
+namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter {
+
 	/// <summary>
 	/// Class ResourceConverterPluginExportMetadataAttribute. This class cannot be inherited.
 	/// Implements the <see cref="System.Attribute" />
@@ -21,16 +21,14 @@ namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
 	/// </example>
 	[MetadataAttribute]
 	[AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
-	public sealed class ResourceConverterPluginExportMetadataAttribute : Attribute, IResourceConverterPluginExportMetadata
-	{
+	public sealed class ResourceConverterPluginExportMetadataAttribute : Attribute, IResourceConverterPluginExportMetadata {
+
 		/// <summary>
 		/// Initializes a new instance of the <see cref="ResourceConverterPluginExportMetadataAttribute"/> class.
 		/// </summary>
 		/// <param name="mimeType">The <see cref="MimeType"/>.</param>
 		/// <param name="priority">The <see cref="Priority"/>.</param>
-		public ResourceConverterPluginExportMetadataAttribute(string mimeType, int priority = 0)
-
-		{
+		public ResourceConverterPluginExportMetadataAttribute(string mimeType, int priority = 0) {
 			MimeType = mimeType;
 			Priority = priority;
 		}

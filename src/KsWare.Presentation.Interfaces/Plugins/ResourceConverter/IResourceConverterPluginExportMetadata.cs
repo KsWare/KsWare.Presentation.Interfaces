@@ -1,10 +1,10 @@
-﻿namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
-{
+﻿namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter {
+
 	/// <summary>
 	/// Interface IResourceConverterPluginExportMetadata
 	/// </summary>
-	public interface IResourceConverterPluginExportMetadata
-	{
+	public interface IResourceConverterPluginExportMetadata {
+
 		/// <summary>
 		/// Gets the MIME type.
 		/// </summary>
