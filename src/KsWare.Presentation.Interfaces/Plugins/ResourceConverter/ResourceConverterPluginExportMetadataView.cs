@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 
-namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
-{
+namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter {
+
 	/// <summary>
 	/// Metadata view for <see cref="IResourceConverterPlugin"/> export.
 	/// </summary>
-	public sealed class ResourceConverterPluginExportMetadataView
-	{
+	public sealed class ResourceConverterPluginExportMetadataView {
+
 		/// <summary>
 		/// Gets the array of all metadata attributes.
 		/// </summary>
@@ -17,8 +17,7 @@ namespace KsWare.Presentation.Interfaces.Plugins.ResourceConverter
 		/// Initializes a new instance of the <see cref="ResourceConverterPluginExportMetadataView"/> class.
 		/// </summary>
 		/// <param name="dic">a dictionary with metadata.</param>
-		public ResourceConverterPluginExportMetadataView(IDictionary<string, object> dic)
-		{
+		public ResourceConverterPluginExportMetadataView(IDictionary<string, object> dic) {
 			var p1 = dic[nameof(IResourceConverterPluginExportMetadata.MimeType)] as string[];
 			var p2 = dic[nameof(IResourceConverterPluginExportMetadata.Priority)] as int[];
 

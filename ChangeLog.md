@@ -1,6 +1,11 @@
 # Release Notes
 KsWare.Presentation.Interfaces
 
+### 2023-03-12
+- add TargetFramework net7.0-windows
+- remove TargetFramework net5.0-windows
+- remove TargetFramework net452
+
 ### 2022-01-02
 - add TargetFramework net6.0-windows
 - remove TargetFramework net45, remove project ClassLibraryNet45
