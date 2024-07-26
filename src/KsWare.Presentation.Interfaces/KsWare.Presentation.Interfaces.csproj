@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFrameworks>net462;net48;netcoreapp3.1;net6.0-windows;net7.0-windows</TargetFrameworks>
+    <TargetFrameworks>net462;net48;net6.0-windows;net8.0-windows</TargetFrameworks>
     <Description>
 		Interfaces for KsWare Presentation Framework.
-		Supports .Net 6.0+, Core 3.1 and .Net 4.6.2+
+		Supports .Net 6.0+ and .Net 4.6.2+
     </Description>
     <Company>KsWare</Company>
     <Authors>KsWare</Authors>
     <Product>Presentation Framework</Product>
-    <Version>0.3.0</Version>
-    <Copyright>Copyright © 2002-2023 by KsWare. All rights reserved.</Copyright>
+    <Version>0.4.0</Version>
+    <Copyright>Copyright © 2002-2024 by KsWare. All rights reserved.</Copyright>
     <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Properties\KsWare.Presentation.Public.snk</AssemblyOriginatorKeyFile>
@@ -24,7 +24,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
     <PackageTags>resource converter plugin Interfaces KsWare Presentation Framework</PackageTags>
-    <PackageReleaseNotes>Support for .Net 6.0+, Core 3.1 and .Net 4.6.2+</PackageReleaseNotes>
+    <PackageReleaseNotes>Support for .Net 6.0+ and .Net 4.6.2+</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/KsWare/KsWare.Presentation.Interfaces</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
@@ -37,6 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Composition" Version="5.0.0" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="8.0.0" />
   </ItemGroup>
 </Project>
